@@ -2,7 +2,7 @@
  * Project: XBSlink: A XBox360 & PS3/2 System Link Proxy
  * File name: Form1.cs
  *   
- * @author Oliver Seuffert, Copyright (C) 2011.
+ * @author Thexgamelord, Copyright (C) 2011.
  */
 /* 
  * XBSlink is free software; you can redistribute it and/or modify 
@@ -1377,7 +1377,7 @@ namespace XBSlink
                 lock (udp_listener._locker_HELLO)
                 {
                     if (!xbs_upnp.isPortReachable)
-                        Monitor.Wait(udp_listener._locker_HELLO, 1000);
+                        Monitor.Wait(udp_listener._locker_HELLO, 5000);
                 }
 
                 if (xbs_upnp.isPortReachable == false)

@@ -131,20 +131,20 @@
     <value>XBSlink could not find any capture devices in your system.
 This problem occurs if the WinPCap library is not active. Please make sure WinPCap is loaded.
 
-For more information see &lt;http://www.secudb.de/~seuffert/xbslink/faq#question-15&gt;</value>
+For more information see &lt;https://xbslink.thexgamelord.repl.co/xbslink/faq#question-15&gt;</value>
   </data>
   <data name="url_check_latest_version" xml:space="preserve">
-    <value>http://www.secudb.de/~seuffert/xbslink/latest_xbslink_version</value>
+    <value>https://xbslink.thexgamelord.repl.co/xbslink/latest_xbslink_version</value>
   </data>
   <data name="url_xbslink_website" xml:space="preserve">
-    <value>http://www.secudb.de/~seuffert/xbslink/</value>
+    <value>https://xbslink.thexgamelord.repl.co/xbslink/</value>
   </data>
   <data name="error_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\error_50.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="crash_message" xml:space="preserve">
     <value>Sorry, XBSlink crashed.
-Please send this info to xbslink@secudb.de, we might have the right bug spray ;) Thank you!</value>
+Please send this info to thexgamelord@hotmail.com, we might have the right bug spray ;) Thank you!</value>
   </data>
   <data name="message_no_capture_devices_startNPF" xml:space="preserve">
     <value>XBSlink could not find any capture devices in your system.
@@ -156,13 +156,13 @@ Do you want XBSlink to try starting the WinPcap driver (NPF) ?</value>
     <value>XBSlink could not find any capture devices in your system.
 This problem occurs if the user has not enough rights to use the pcap library. Please try to run XBSlink as root ("sudo mono XBSlink.exe")
 
-For more information see &lt;http://www.secudb.de/~seuffert/xbslink/faq#question-2&gt;</value>
+For more information see &lt;https://xbslink.thexgamelord.repl.co/xbslink/faq#question-2&gt;</value>
   </data>
   <data name="url_check_latest_version_linux" xml:space="preserve">
-    <value>http://www.secudb.de/~seuffert/xbslink/latest_xbslink_version_linux</value>
+    <value>https://xbslink.thexgamelord.repl.co/xbslink/latest_xbslink_version_linux</value>
   </data>
   <data name="url_check_latest_version_mac" xml:space="preserve">
-    <value>http://www.secudb.de/~seuffert/xbslink/latest_xbslink_version_mac</value>
+    <value>https://xbslink.thexgamelord.repl.co/xbslink/latest_xbslink_version_mac</value>
   </data>
   <data name="message_specialmaclist_empty" xml:space="preserve">
     <value>Please add at least one MAC address to the list.</value>

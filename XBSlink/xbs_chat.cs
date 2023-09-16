@@ -2,7 +2,7 @@
  * Project: XBSlink: A XBox360 & PS3/2 System Link Proxy
  * File name: xbs_chat.cs
  *   
- * @author Oliver Seuffert, Copyright (C) 2011.
+ * @author Thexgamelord, Copyright (C) 2011.
  */
 /* 
  * XBSlink is free software; you can redistribute it and/or modify 

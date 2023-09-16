@@ -2,7 +2,7 @@
  * Project: XBSlink: A XBox360 & PS3/2 System Link Proxy
  * File name: Form1.Designer.cs
  *   
- * @author Oliver Seuffert, Copyright (C) 2011.
+ * @author Thexgamelord, Copyright (C) 2011.
  */
 /* 
  * XBSlink is free software; you can redistribute it and/or modify 
@@ -448,6 +448,7 @@ namespace XBSlink
             | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox_newsFeed.Location = new System.Drawing.Point(0, 0);
             this.richTextBox_newsFeed.Name = "richTextBox_newsFeed";
+            this.richTextBox_newsFeed.ReadOnly = true;
             this.richTextBox_newsFeed.Size = new System.Drawing.Size(360, 493);
             this.richTextBox_newsFeed.TabIndex = 0;
             this.richTextBox_newsFeed.Text = "";
@@ -552,6 +553,7 @@ namespace XBSlink
             this.columnHeader_nodeNickname});
             this.listView_nodes.GridLines = true;
             this.listView_nodes.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.listView_nodes.HideSelection = false;
             this.listView_nodes.LabelWrap = false;
             this.listView_nodes.Location = new System.Drawing.Point(0, 22);
             this.listView_nodes.MultiSelect = false;
@@ -738,6 +740,7 @@ namespace XBSlink
             this.columnHeader_cloudlistmaxnodes});
             this.listView_clouds.FullRowSelect = true;
             this.listView_clouds.GridLines = true;
+            this.listView_clouds.HideSelection = false;
             this.listView_clouds.Location = new System.Drawing.Point(0, 28);
             this.listView_clouds.Name = "listView_clouds";
             this.listView_clouds.Size = new System.Drawing.Size(359, 415);
@@ -1011,7 +1014,7 @@ namespace XBSlink
             this.textBox_newsFeedUri.Name = "textBox_newsFeedUri";
             this.textBox_newsFeedUri.Size = new System.Drawing.Size(314, 20);
             this.textBox_newsFeedUri.TabIndex = 0;
-            this.textBox_newsFeedUri.Text = "http://www.secudb.de/~seuffert/xbslink/feed";
+            this.textBox_newsFeedUri.Text = "https://xbslink.thexgamelord.repl.co/xbslink/feed";
             this.textBox_newsFeedUri.TextChanged += new System.EventHandler(this.textBox_newsFeedUri_TextChanged);
             this.textBox_newsFeedUri.Leave += new System.EventHandler(this.textBox_newsFeedUri_Leave);
             // 
@@ -1537,6 +1540,7 @@ namespace XBSlink
             this.columnHeader_nat_ippool__originalIP,
             this.columnHeader_nat_ippool_node});
             this.listView_nat_IPpool.GridLines = true;
+            this.listView_nat_IPpool.HideSelection = false;
             this.listView_nat_IPpool.Location = new System.Drawing.Point(0, 134);
             this.listView_nat_IPpool.Name = "listView_nat_IPpool";
             this.listView_nat_IPpool.Size = new System.Drawing.Size(360, 287);
@@ -1680,12 +1684,12 @@ namespace XBSlink
             this.contextMenuStrip_systray.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem_exit});
             this.contextMenuStrip_systray.Name = "contextMenuStrip_systray";
-            this.contextMenuStrip_systray.Size = new System.Drawing.Size(135, 26);
+            this.contextMenuStrip_systray.Size = new System.Drawing.Size(136, 26);
             // 
             // toolStripMenuItem_exit
             // 
             this.toolStripMenuItem_exit.Name = "toolStripMenuItem_exit";
-            this.toolStripMenuItem_exit.Size = new System.Drawing.Size(134, 22);
+            this.toolStripMenuItem_exit.Size = new System.Drawing.Size(135, 22);
             this.toolStripMenuItem_exit.Text = "Exit XBSlink";
             this.toolStripMenuItem_exit.Click += new System.EventHandler(this.toolStripMenuItem_exit_Click);
             // 

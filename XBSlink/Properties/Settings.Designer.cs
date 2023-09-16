@@ -193,7 +193,7 @@ namespace XBSlink.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://www.secudb.de/~seuffert/xbslink/cloudlist/")]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://xbslink.thexgamelord.repl.co/xbslink/cloudlist/")]
         public string REG_CLOUDLIST_SERVER {
             get {
                 return ((string)(this["REG_CLOUDLIST_SERVER"]));
@@ -361,7 +361,7 @@ namespace XBSlink.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://www.secudb.de/~seuffert/xbslink/feed")]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://xbslink.thexgamelord.repl.co/xbslink/feed")]
         public string REG_NEWS_FEED_URI {
             get {
                 return ((string)(this["REG_NEWS_FEED_URI"]));

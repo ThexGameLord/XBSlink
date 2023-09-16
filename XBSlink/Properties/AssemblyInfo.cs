@@ -2,7 +2,7 @@
  * Project: XBSlink: A XBox360 & PS3/2 System Link Proxy
  * File name: AssemblyInfo.cs
  *   
- * @author Oliver Seuffert, Copyright (C) 2011.
+ * @author Thexgamelord, Copyright (C) 2011.
  */
 /* 
  * XBSlink is free software; you can redistribute it and/or modify 
@@ -29,10 +29,10 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("XBSlink")]
 [assembly: AssemblyDescription("XBSlink - Xbox System Link Proxy")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Oliver Seuffert")]
+[assembly: AssemblyCompany("Thexgamelord")]
 [assembly: AssemblyProduct("XBSlink")]
-[assembly: AssemblyCopyright("Copyright Oliver Seuffert © 2013")]
-[assembly: AssemblyTrademark("xbslink@secudb.de | http://www.secudb.de/~seuffert/xbslink/")]
+[assembly: AssemblyCopyright("Copyright Thexgamelord © 2013")]
+[assembly: AssemblyTrademark("thexgamelord@hotmail.com | https://xbslink.thexgamelord.repl.co/xbslink/")]
 [assembly: AssemblyCulture("")]
 
 // Durch Festlegen von ComVisible auf "false" werden die Typen in dieser Assembly unsichtbar 
@@ -43,5 +43,5 @@ using System.Runtime.InteropServices;
 // Die folgende GUID bestimmt die ID der Typbibliothek, wenn dieses Projekt für COM verfügbar gemacht wird
 [assembly: Guid("cf940b99-b2ae-499e-a618-99810a5a994f")]
 
-[assembly: AssemblyVersion("0.9.6.0")]
-[assembly: AssemblyFileVersion("0.9.6.0")]
+[assembly: AssemblyVersion("0.9.6.1")]
+[assembly: AssemblyFileVersion("0.9.6.1")]
